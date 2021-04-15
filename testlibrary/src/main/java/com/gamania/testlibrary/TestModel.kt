@@ -1,8 +1,8 @@
-package com.gamania.sonatypeapplication
+package com.gamania.testlibrary
 
-class SonatypeModel {
-    private var version: Int = 0
-    private var account: Int = 0
+class TestModel(var acc: Int,var ver: Int) {
+    private var version: Int = ver
+    private var account: Int = acc
 
     fun setModelValue(ver: Int) {
         version = ver

@@ -1,4 +1,4 @@
-package com.gamania.sonatypeapplication
+package com.gamania.sonatypetest
 
 import org.junit.Test
 
